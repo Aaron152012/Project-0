@@ -4,9 +4,44 @@
         <Title>Advanced search</Title>
     </head>
     <body>
-        <form action="http://www.google.come/search">
-            <input type="text" name=q>
-            <input type="submit" value="Advanced Search">
+        <form action="https://www.google.com/search">
+                <div>all these words: <input type="text" name=as_q></div>
+                <div>this exact word or phrase: <input type="text" name=as_epq></div>
+                <div>any of these words: <input type="text" name=as_oq></div>
+                <div>none of these words: <input type="text" name=as_eq></div>
+                <div>numbers ranging from: <input type="text" name=as_nlo> to <input type="text" name=as_nhi></div>
+                <div>language: <select name="lr">
+                    <option value=""></option>
+                    <option value="lang_af">Afrikans</option>
+                </select>
+                </div>
+                <div>region: <select name="cr">
+                    <option value=""></option>
+                    <option value="countryAF">Afghanistan</option>
+                </select>
+                </div>
+                <div>last update: <select name="as_qdr">
+                    <option value="all"></option>
+                    <option value="d">past 24 hours</option>
+                </select>
+                </div>
+                <div>site or domain: <input type="text" name=as_sitesearch></div>
+                <div>terms appearing: <select name="as_occt">
+                    <option value="any"></option>
+                    <option value="title">in the title of the page</option>
+                </select>
+                </div>
+                <div>file type: <select name="as_filetype">
+                    <option value=""></option>
+                    <option value="pdf">Adobe Acrobat PDF (.pdf)</option>
+                </select>
+                </div>
+                <div>usage rights: <select name="tbs">
+                    <option value=""></option>
+                    <option value="sur3Af">free to use or share</option>
+                </select>
+                </div>
+                <input type="submit" value="Advanced Search">
         </form>
     </body>
 </html>
