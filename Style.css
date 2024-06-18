@@ -1,4 +1,10 @@
-body {
-  background-color: darkgrey; }
+.bgcolor {
+  background-color: #1f1e1e; }
+
+.Tittle {
+  color: white; }
+
+.row {
+  color: white; }
 
 /*# sourceMappingURL=Style.css.map */

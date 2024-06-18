@@ -1,6 +1,14 @@
-$Color1: darkgrey;
+$Color1: rgb(31, 30, 30);
+$Color2: white;
 
-body {
+.bgcolor {
     background-color: $Color1;
 }
 
+.Tittle {
+    color: $Color2;
+}
+
+.row {
+    color: $Color2;
+}
